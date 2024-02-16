@@ -15,6 +15,7 @@
 		AC2284302B7BE83300210030 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC22842F2B7BE83300210030 /* TabBarController.swift */; };
 		AC2284332B7BE9EA00210030 /* UiCollor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2284322B7BE9EA00210030 /* UiCollor + ext.swift */; };
 		AC2284372B7BEACE00210030 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2284362B7BEACE00210030 /* Resources.swift */; };
+		AC9506B32B7D3FE800339089 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9506B22B7D3FE800339089 /* SecondaryButton.swift */; };
 		ACDCCB272B7D20DC0008F81A /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDCCB262B7D20DC0008F81A /* NavBarController.swift */; };
 		ACDCCB2A2B7D248A0008F81A /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDCCB292B7D248A0008F81A /* BaseController.swift */; };
 		ACDCCB2C2B7D276A0008F81A /* UIVew + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDCCB2B2B7D276A0008F81A /* UIVew + Ext.swift */; };
@@ -34,6 +35,7 @@
 		AC22842F2B7BE83300210030 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		AC2284322B7BE9EA00210030 /* UiCollor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiCollor + ext.swift"; sourceTree = "<group>"; };
 		AC2284362B7BEACE00210030 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		AC9506B22B7D3FE800339089 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		ACDCCB262B7D20DC0008F81A /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		ACDCCB292B7D248A0008F81A /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		ACDCCB2B2B7D276A0008F81A /* UIVew + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVew + Ext.swift"; sourceTree = "<group>"; };
@@ -117,6 +119,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		AC9506B12B7D3FC000339089 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC9506B22B7D3FE800339089 /* SecondaryButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		ACDCCB282B7D24450008F81A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +152,7 @@
 		ACDCCB2E2B7D29B70008F81A /* OverView */ = {
 			isa = PBXGroup;
 			children = (
+				AC9506B12B7D3FC000339089 /* Views */,
 				AC22841D2B7BE14600210030 /* OverviewController.swift */,
 			);
 			path = OverView;
@@ -247,6 +258,7 @@
 				AC2284332B7BE9EA00210030 /* UiCollor + ext.swift in Sources */,
 				ACDCCB272B7D20DC0008F81A /* NavBarController.swift in Sources */,
 				ACDCCB342B7D2A2D0008F81A /* SessionController.swift in Sources */,
+				AC9506B32B7D3FE800339089 /* SecondaryButton.swift in Sources */,
 				ACDCCB362B7D2A810008F81A /* ProgressController.swift in Sources */,
 				ACDCCB2C2B7D276A0008F81A /* UIVew + Ext.swift in Sources */,
 				AC22841A2B7BE14600210030 /* AppDelegate.swift in Sources */,
