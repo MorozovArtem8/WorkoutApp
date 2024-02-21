@@ -19,7 +19,7 @@ class BaseController: UIViewController {
     func addViews() {}
     func layoutViews() {}
     func configure() {
-        view.backgroundColor = .yellow//Resources.Colors.background
+        view.backgroundColor = Resources.Colors.background
     }
     
     func navBarLeftButtonHandler() {

@@ -40,6 +40,7 @@ enum Resources {
         }
         enum Common {
             static var downArrow = UIImage(named: "down_arrow")
+            static var addButton = UIImage(named: "add_button")
         }
         
     }
